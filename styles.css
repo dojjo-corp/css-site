@@ -1,0 +1,117 @@
+/* *************************CONTAINERS********************* */
+div.top-container {
+    background-color: rgb(196, 224, 253);
+    position: relative;
+    padding-top: 150px;
+}
+div.middle-container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+div.bottom-container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+/* *************************NAVIGATION BAR********************* */
+div.nav-bar {
+    background-color: rgb(53, 85, 129);
+    height: 50px;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    right: 20%;
+    z-index: 9;
+}
+
+#nav-bar-item-1 {
+    background-color: rgb(37, 101, 123);
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    left: 4%;
+}
+
+#nav-bar-item-2 {
+    background-color: aliceblue;
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    left: 28%;
+}
+
+#nav-bar-item-3 {
+    background-color: aliceblue;
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    left: 52%;
+}
+
+#nav-bar-item-4 {
+    background-color: aliceblue;
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    left: 76%;
+    right: 4%;
+}
+
+
+
+/* *************************TOP CONTAINER********************* */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(229, 234, 250);
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+
+h1 {
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size:50px;
+}
+
+
+
+
+.top-cloud {
+    width: 200px;
+    position: absolute;
+    right: 250px;
+    top: 25px;
+}
+
+.bottom-cloud {
+    width: 200px;
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.mountain {
+    padding-top: 50px;
+}
+
+
+/* *************************MIDDLE CONTAINER********************* */
+
+
+/* *************************BOTTOM CONTAINER********************* */
+
