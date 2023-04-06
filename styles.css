@@ -1,90 +1,11 @@
-/* *************************CONTAINERS********************* */
-div.top-container {
-    background-color: rgb(99, 168, 241);
-    position: relative;
-    padding-top: 150px;
-    /* width: max-content; */
-}
-div.middle-container {
-
-}
-
-div.bottom-container {
-}
-
-/* *************************NAVIGATION BAR********************* */
-div.nav-bar {
-    background-color: transparent;
-    border-radius: 10px;
-    height: 45px;
-    width: 60%;
-    margin: 10px auto;
-    opacity: 0.9;
-    padding-top: 5px;
-    position: fixed;
-    top: 0;
-    left: 20%;
-    right: 20%;
-    z-index: 9;
-}
-
-.nav-bar-item-1 {
-    background-color: rgb(162, 215, 233);
-    border-radius: 50px;
-    width: 20%;
-    height: 25px;
-    position: absolute;
-    left: 4%;
-}
-
-.nav-bar-item-2 {
-    background-color: aliceblue;
-    border-radius: 50px;
-    width: 20%;
-    height: fit-content;
-    padding: 5px auto;
-    position: absolute;
-    left: 28%;
-}
-
-.nav-bar-item-3 {
-    background-color: rgb(212, 226, 239);
-    border-radius: 50px;
-    width: 20%;
-    height: fit-content;
-    padding-top: 5px;
-    position: absolute;
-    left: 52%;
-}
-
-.nav-bar-item-4 {
-    background-color: aliceblue;
-    border-radius: 50px;
-    width: 20%;
-    height: fit-content;
-    padding-top: 5px;
-    position: absolute;
-    left: 76%;
-    right: 4%;
-}
-
-/* *************************PSEUDO CLASSES********************* */
-
-._hover:hover {
-    padding: 5px;
-    border-radius: 50px;
-    margin: 5px;
-}
-
-
-/* *************************TOP CONTAINER********************* */
-
+/* *************************WHOLE DOCUMENTS********************* */
 a {
     color: #11999E;
 }
 
+
 body {
-    background-color: rgb(229, 234, 250);
+    background-color: rgb(255, 255, 255);
     margin: 0px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -103,12 +24,101 @@ h1 {
 h2{
     font-size: 2.5rem;
     font-weight:normal ;
-    color: #217272;
+    color: #147777;
 }
 
 h3 {
     color: #0c8387;
 }
+
+hr {
+    border: 10px #cddddd;
+    border-style: dotted none none none;
+    width: 5%;
+    margin: 80px auto;
+}
+
+
+/* *************************CONTAINERS********************* */
+div.top-container {
+    background-color: rgb(99, 168, 241);
+    position: relative;
+    padding-top: 150px;
+    /* width: max-content; */
+}
+
+div.middle-container {
+    padding-bottom: 80px;
+}
+
+div.bottom-container {
+}
+
+/* *************************HEADER********************* */
+div.nav-bar {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 45px;
+    width: 60%;
+    margin: 10px auto;
+    opacity: 0.9;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    right: 20%;
+    z-index: 9;
+}
+
+.nav-bar-item-1 {
+    background-color: rgb(212, 226, 239);
+    border-radius: 50px;
+    width: 20%;
+    height: 25px;
+    position: absolute;
+    left: 4%;
+}
+
+.nav-bar-item-2 {
+    background-color: rgb(212, 226, 239);
+    border-radius: 50px;
+    width: 20%;
+    height: 25px;
+    position: absolute;
+    left: 28%;
+}
+
+.nav-bar-item-3 {
+    background-color: rgb(212, 226, 239);
+    border-radius: 50px;
+    width: 20%;
+    height: 25px;
+    position: absolute;
+    left: 52%;
+}
+
+.nav-bar-item-4 {
+    background-color: rgb(212, 226, 239);
+    border-radius: 50px;
+    width: 20%;
+    height: 25px;
+    position: absolute;
+    left: 76%;
+    right: 4%;
+}
+
+/* *************************PSEUDO CLASSES********************* */
+
+._hover:hover {
+    padding: 5px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+
+/* *************************TOP CONTAINER********************* */
+
+
 #my-header {
     margin-top: 50px;
 }
@@ -116,14 +126,14 @@ h3 {
 .top-cloud {
     width: 200px;
     position: absolute;
-    right: 250px;
+    right: 150px;
     top: 25px;
 }
 
 .bottom-cloud {
     width: 200px;
     position: absolute;
-    left: 250px;
+    left: 150px;
     bottom: 300px;
 }
 
@@ -133,46 +143,93 @@ h3 {
 
 
 /* *************************MIDDLE CONTAINER********************* */
-.column-1 {
-    background-color: pink;
-    height: inherit;
-    width: 350px;
-    border-radius: 50px;
-    position: absolute;
-    left: 10px;
-    opacity: 0.7;
-
+.bio {
+    color: #40514E;
 }
 
-.column-2 {
-    background-color: rgb(146, 198, 221);
-    height: inherit;
-    width: 350px;
-    border-radius: 50px;
-    position: absolute;
-    left: 360px;
-    
-}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
 
-.column-3 {
-    background-color: rgb(119, 144, 213);
-    height: inherit;
-    width: 350px;
-    border-radius: 50px;
-    position: absolute;
-    left: 720px;
-
+.contact-text {
+    padding-bottom: 50px;
 }
-round-img {
+.round-img {
     width: 400px;
     height: 400px;
-    border-radius: 100%;
 }
 
 .skill-row {
-    display: inline-block;
+    margin: 100px auto;
+    line-height: 2;
+    text-align: left;
     width: 50%;
+    
+}
+.dev-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
-/* *************************BOTTOM CONTAINER********************* */
+.guitar-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
 
+.skill-description-1 {
+    clear: left;
+}
+
+.skill-description-2 {
+    clear: right;
+}
+
+
+/* *************************FOOTER********************* */
+footer {
+    margin-bottom: 0;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-link {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6
+}
+.owner-name {
+    color: #EAF6F6;
+}
